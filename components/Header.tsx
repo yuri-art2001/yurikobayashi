@@ -10,8 +10,8 @@ export default function Header() {
     <header className="bg-white">
       <nav className="flex justify-between h-50 sm:h-80">
         <div className="relative">
-          <div className='absolute -top-10 sm:-top-20 sm:-left-26 -left-20  sm:w-70 sm:h-70 w-50 h-50 rounded-full bg-red-500 flex justify-center items-center'>
-          <ul className="relative sm:top-10 top-5  flex justify-center items-center flex-col ">
+          <div className='absolute -top-10 sm:top-5 sm:left-5 -left-20  sm:w-55 sm:h-55 w-50 h-50 rounded-full bg-red-500 flex justify-center items-center'>
+          <ul className="relative sm:top-0 top-5  flex justify-center items-center flex-col ">
             <li className="font-bold py-1 text-white">
               <Link target="_blank" className='text-[12px] sm:text-[14px]'  href="https://www.linkedin.com/in/yuri-kobayashi-42ab9123/">
                 in

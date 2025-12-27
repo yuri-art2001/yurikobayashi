@@ -14,7 +14,7 @@ export default function CostumeDesignerBar() {
         {[...Array(8)].map((_, index) => (
           <div 
             key={index} 
-            className="flex justify-start items-center bg-white py-4 pl-3 pr-3 sm:pl-8 sm:pr-8 flex-shrink-0"
+            className="flex justify-start items-center bg-white py-4 pl-3 pr-3 sm:pl-8 sm:pr-10 flex-shrink-0"
           >
             {/* Linha esquerda */}
             <div className="h-[2px] w-5 sm:w-10 bg-red-600"></div>

@@ -19,7 +19,7 @@ export default function About() {
 
         <div className="sm:mt-40 sm:mr-20 rounded-xl" ref={aboutRef}>
           <div className="flex  flex-col justify-between items-end sm:w-180 sm:h-240 w-[100%] h-300 sm:p-10 p-5  bg-red-500 rounded-xl">
-              <p className='text-1xl pt-5 sm:pt-20 sm:text-[18px]  text-[16px] font-sans  text-white'>sou yuri kobayashi, <strong>figurinista</strong>, formada em design de moda, pelo centro universitário belas artes de são paulo. nas minhas criações, mesclo o meu conhecimento da moda com a linguagem do cinema.<br/><br/> 
+              <p className='text-1xl pt-5 sm:pt-0 sm:text-[18px]  text-[16px] font-sans  text-white'>sou yuri kobayashi, <strong>figurinista</strong>, formada em design de moda, pelo centro universitário belas artes de são paulo. nas minhas criações, mesclo o meu conhecimento da moda com a linguagem do cinema.<br/><br/> 
 
 minha trajetória no audiovisual começou em 2008, entre projetos para cinema, tv e publicidade.<br/><br/>
  
@@ -31,7 +31,7 @@ em paralelo desenvolvo a umi, acervo independente de roupas vintages e peças si
 </p>
               <Image
                   className="relative sm:left-25 left-0 w-100 h-250 sm:w-100 sm:h-150 pt-5 sm:pt-10 rounded-xl"
-                  src="/yuri-about-new.jpeg"
+                  src="/yuri-about.jpeg"
                   alt="yuri kobayashi - figurinista"
                   width={400}
                   height={400}
