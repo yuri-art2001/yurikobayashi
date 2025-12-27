@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Habilita exportação estática
+  output: 'export',
   images: {
-    unoptimized: true, // Necessário para GitHub Pages
+    unoptimized: true,
   },
-}
+  basePath: '/yurikobayashi',
+  assetPrefix: '/yurikobayashi/',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
