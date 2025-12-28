@@ -31,7 +31,7 @@ em paralelo desenvolvo a umi, acervo independente de roupas vintages e peças si
 </p>
               <Image
                   className="relative sm:left-25 left-0 w-100 h-250 sm:w-100 sm:h-150 pt-5 sm:pt-10 rounded-xl"
-                  src="/yuri-about.jpeg"
+                  src="./yuri-about.jpeg"
                   alt="yuri kobayashi - figurinista"
                   width={300}
                   height={300}
