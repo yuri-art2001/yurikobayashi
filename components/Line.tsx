@@ -38,7 +38,7 @@ function Header({ item, isOpen, onToggle }: any) {
             {item.video ? (
                 <video
                     className="absolute inset-0 w-full h-full object-cover"
-                    src={item.video}
+                    src={`.${item.video}`}
                     autoPlay
                     muted
                     loop
@@ -228,7 +228,7 @@ function Dropdown({ item }: any) {
                     {item.award && (
                         <Image
                             className="w-28 h-auto mt-10 invert"
-                            src={item.award}
+                            src={`.${item.award}`}
                             alt="award"
                             width={100}
                             height={100}
