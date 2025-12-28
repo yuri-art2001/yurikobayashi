@@ -1,21 +1,11 @@
-// import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
-// const nextConfig: NextConfig = {
-//   /* config options here */
-// };
-
-// export default nextConfig;
-
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  basePath: "/yurikobayashi",
-  assetPrefix: "/yurikobayashi/",
-  images: {
-    unoptimized: true,
-  },
+const nextConfig: NextConfig = {
+  output: "export"
 };
 
-module.exports = nextConfig;
+export default nextConfig;
+
+
+
 
