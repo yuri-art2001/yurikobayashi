@@ -47,7 +47,7 @@ function Header({ item, isOpen, onToggle }: any) {
             ) : (
                 <Image
                     className="absolute inset-0 w-full h-full object-cover"
-                    src={`./item.imagem`}
+                    src={item.imagem}
                     alt={item.titulo}
                     width={1920}
                     height={300}
