@@ -1,11 +1,21 @@
+// import type { NextConfig } from "next";
+
+// const nextConfig: NextConfig = {
+//   /* config options here */
+// };
+
+// export default nextConfig;
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: "export",
+  basePath: "/yurikobayashi",
+  assetPrefix: "/yurikobayashi/",
   images: {
     unoptimized: true,
   },
-  basePath: '/yurikobayashi',
-  assetPrefix: '/yurikobayashi/',
 };
 
 module.exports = nextConfig;
+
