@@ -184,7 +184,7 @@ function Dropdown({ item }: any) {
                     {/* Imagem ampliada */}
                     <div className="relative w-full max-w-6xl h-[80vh] max-h-[80vh]">
                         <Image
-                            src={zoomedImage}
+                            src={`.${zoomedImage}`}
                             alt={`${item.titulo} - zoom`}
                             fill
                             className="object-contain p-4"
@@ -281,7 +281,7 @@ function Dropdown({ item }: any) {
                             <video
                                 ref={videoRef}
                                 className={`w-full h-full object-cover hover:scale-105 transition-transform duration-300 ${isFullscreen ? 'cursor-default' : 'cursor-pointer'}`}
-                                src={item.videoIn}
+                                src={`.${item.videoIn}`}
                                 autoPlay
                                 muted
                                 loop
