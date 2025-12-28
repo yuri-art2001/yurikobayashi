@@ -41,7 +41,7 @@ export default function Header() {
             </div> 
               <Image
                   className="relative top-21 sm:top-40 right-20 w-16 h-16 sm:w-30 sm:h-30"
-                  src="/umi-logo.png"
+                  src="./umi-logo.png"
                   alt="yuri kobayashi, costume designer"
                   width={100}
                   height={100}
