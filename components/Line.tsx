@@ -251,7 +251,7 @@ function Dropdown({ item }: any) {
                                 >
                                     <Image
                                         className="object-cover hover:scale-105 transition-transform duration-300"
-                                        src={src}
+                                        src={`.${src}`}
                                         alt={`${item.titulo} imagem ${i + 1}`}
                                         fill
                                         sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
