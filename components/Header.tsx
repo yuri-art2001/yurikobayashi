@@ -11,7 +11,7 @@ export default function Header() {
       <nav className="flex justify-between h-50 sm:h-80">
         <div className="relative">
           <div className='absolute -top-10 sm:top-5 sm:left-5 -left-20  sm:w-55 sm:h-55 w-50 h-50 rounded-full bg-red-500 flex justify-center items-center'>
-          <ul className="relative sm:top-0 top-5  flex justify-center items-center flex-col ">
+          <ul className="relative sm:top-0 top-5 left-3 sm:left-0 flex justify-center items-center flex-col ">
             <li className="font-bold py-1 text-white">
               <Link target="_blank" className='text-[12px] sm:text-[14px]'  href="https://www.linkedin.com/in/yuri-kobayashi-42ab9123/">
                 in

@@ -66,7 +66,7 @@ function Header({ item, isOpen, onToggle }: any) {
             />
 
             {/* Title */}
-            <h3 className="relative uppercase z-10 mr-5 sm:mr-20 text-1xl sm:text-4xl 
+            <h3  onClick={onToggle} className="relative uppercase z-10 mr-5 sm:mr-20 text-1xl sm:text-4xl 
                            font-bold text-white text-shadow text-end whitespace-nowrap">
                 {item.titulo}
             </h3>
