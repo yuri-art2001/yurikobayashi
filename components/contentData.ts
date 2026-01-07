@@ -58,7 +58,7 @@ export const contentData: ContentData = {
                 Grand Prix, Festival Tous Courts 
                 `,
         award: "/festival-de-cannes.png",
-        imagens: ["/amarela/amarela-01.png", "/amarela/amarela-02.png", "/amarela/amarela-bk.png"]
+        imagens: ["/amarela/amarela-01.png", "/amarela/amarela-02.png", "/amarela/amarela-bk.png",  "/amarela/amarela-04.png"]
     },
     Data3: {
         year: 2024,
@@ -107,7 +107,7 @@ export const contentData: ContentData = {
                 fig: yuri kobayashi`,
         awards: "",
         award: "",
-        imagens: ["/doce-familia/doce-familia-01.png", "/doce-familia/doce-familia-02.jpg", "/doce-familia/doce-familia-03.png"]
+        imagens: ["/doce-familia/doce-familia-01.png", "/doce-familia/doce-familia-02.jpg", "/doce-familia/doce-familia-03.png", "/doce-familia/doce-familia-04.png"]
     },
     Data6: {
         year: 2022,
@@ -123,7 +123,7 @@ export const contentData: ContentData = {
                 fig: yuri kobayashi`,
         awards: "",
         award: "",
-        imagens: ["/caso-celso-daniel/caso-celso-daniel-01.png", "/caso-celso-daniel/caso-celso-daniel-02.png", "/caso-celso-daniel/caso-celso-daniel-03.png"]
+        imagens: ["/caso-celso-daniel/caso-celso-daniel-01.png", "/caso-celso-daniel/caso-celso-daniel-02.png", "/caso-celso-daniel/caso-celso-daniel-03.png", "/caso-celso-daniel/caso-celso-daniel-04.png"]
     },
     Data7: {
         year: 2021,
@@ -156,7 +156,7 @@ export const contentData: ContentData = {
                 `,
         awards: "",
         award: "",
-        imagens: ["/um-broto-legal/um-broto-legal-02.png", "/um-broto-legal/um-broto-legal-01.png", "/um-broto-legal/um-broto-legal-03.png"]
+        imagens: ["/um-broto-legal/um-broto-legal-02.png", "/um-broto-legal/um-broto-legal-01.png", "/um-broto-legal/um-broto-legal-03.png", "/um-broto-legal/um-broto-legal-04.png"]
     },
     Data9: {
         year: 2021,

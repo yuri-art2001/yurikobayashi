@@ -241,7 +241,7 @@ function Dropdown({ item }: any) {
                     
                     {/* IMAGES WITH ZOOM */}
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 items-center">
-                        {item.imagens.map((src: string, i: number) => (
+                    {item.imagens.slice(0, 3).map((src: string, i: number) => (
                             <div key={i} className="flex justify-center">
                                 <div 
                                     className="relative rounded-full overflow-hidden shadow-md hover:shadow-lg 
