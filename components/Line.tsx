@@ -16,7 +16,7 @@ export default function Line() {
                 const isOpen = open[key] ?? false;
 
                 return (
-                    <div key={key} className="border-b border-gray-200">
+                    <div key={key} className=" border-gray-200">
                         <Header item={item} isOpen={isOpen} onToggle={() => toggleDropdown(key)} />
 
                         {isOpen && <Dropdown item={item} />}

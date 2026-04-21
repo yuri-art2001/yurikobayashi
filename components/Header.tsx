@@ -40,11 +40,11 @@ export default function Header() {
             <h1>costume designer | figurinista</h1>
             </div> 
               <Image
-                  className="relative top-21 sm:top-40 right-20 w-16 h-16 sm:w-30 sm:h-30"
+                  className="relative top-21 sm:top-40 right-20 w-16 h-16 sm:w-20 sm:h-20"
                   src="./umi-logo.png"
                   alt="yuri kobayashi, costume designer"
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                   priority
                 />
           </div> 

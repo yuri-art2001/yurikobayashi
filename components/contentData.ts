@@ -35,7 +35,7 @@ export const contentData: ContentData = {
                 Premio do Público de Melhor Ficção, Rail D'Oc, Cine+ Festival, Festival CinéLatino Toulouse`,
         imagens: ["/melhor-mae-do-mundo/melhor-mae-do-mundo-01.png",
              "/melhor-mae-do-mundo/melhor-mae-do-mundo-02.png",
-              "/melhor-mae-do-mundo/melhor-mae-do-mundo-03.png"]
+              "/melhor-mae-do-mundo/melhor-mae-do-mundo-03.webp"]
         // imagens: ["/broto-legal-ma.png", "/broto-legal-ve.png", "/broto-legal-pa.png"]
     },
     Data2: {
@@ -58,7 +58,7 @@ export const contentData: ContentData = {
                 Grand Prix, Festival Tous Courts 
                 `,
         award: "/festival-de-cannes.png",
-        imagens: ["/amarela/amarela-01.png", "/amarela/amarela-02.png", "/amarela/amarela-bk.png",  "/amarela/amarela-04.png"]
+        imagens: ["/amarela/amarela-01.png", "/amarela/amarela-02.png", "/amarela/amarela-03.png",  "/amarela/amarela-04.png"]
     },
     Data3: {
         year: 2024,
@@ -74,15 +74,15 @@ export const contentData: ContentData = {
                 fig: yuri kobayashi`,
         awards: `Premio Melhor Fotografia e Melhor Trilha Sonora, Festival Internacional de Cinema de Carazinho em 2025`,
         award: "",
-        imagens: ["/passagrana/passagrana-01.png", "/passagrana/passagrana-02.png", "/passagrana/passagrana-03.png"]
+        imagens: ["/passagrana/passagrana-01.jpg", "/passagrana/passagrana-02.png", "/passagrana/passagrana-03.png"]
     },
     Data4: {
         year: 2014,
         color: "",
         titulo: "Amigos Sem Compromisso",
-        video: "/",
-        videoIn: "/",
-        imagem: "/",
+        video: "",
+        imagem: "/amigos-sem-compromisso/amigos-sem-compromisso-capa.png",
+        videoIn: "",
         texto: `prod: bionica filmes + sony pictures
                 dir: rafael gomes
                 dop: julia equi
@@ -91,7 +91,7 @@ export const contentData: ContentData = {
                 `,
         awards: "",
         award: "",
-        imagens: ["/", "/", "/"]
+        imagens: ["", "", ""]
     },
     Data5: {
         year: 2024,
@@ -107,7 +107,7 @@ export const contentData: ContentData = {
                 fig: yuri kobayashi`,
         awards: "",
         award: "",
-        imagens: ["/doce-familia/doce-familia-01.png", "/doce-familia/doce-familia-02.jpg", "/doce-familia/doce-familia-03.png", "/doce-familia/doce-familia-04.png"]
+        imagens: ["/doce-familia/doce-familia-01.webp", "/doce-familia/doce-familia-02.png", "/doce-familia/doce-familia-03.png", "/doce-familia/doce-familia-04.png"]
     },
     Data6: {
         year: 2022,
@@ -123,7 +123,7 @@ export const contentData: ContentData = {
                 fig: yuri kobayashi`,
         awards: "",
         award: "",
-        imagens: ["/caso-celso-daniel/caso-celso-daniel-01.png", "/caso-celso-daniel/caso-celso-daniel-02.png", "/caso-celso-daniel/caso-celso-daniel-03.png", "/caso-celso-daniel/caso-celso-daniel-04.png"]
+        imagens: ["/caso-celso-daniel/caso-celso-daniel-01.png", "/caso-celso-daniel/caso-celso-daniel-02.png", "/caso-celso-daniel/caso-celso-daniel-03.png", "/caso-celso-daniel/caso-celso-daniel-04.png", "/caso-celso-daniel/caso-celso-daniel-05.png"]
     },
     Data7: {
         year: 2021,
@@ -139,7 +139,7 @@ export const contentData: ContentData = {
                 fig: yuri kobayashi`,
         awards: "Premio Menção Especial, Festival de Cannes 2021",
         award: "/festival-de-cannes.png",
-        imagens: ["/ceu-de-agosto/ceu-de-agosto-01.jpg", "/ceu-de-agosto/ceu-de-agosto-02.jpg", "/ceu-de-agosto/ceu-de-agosto-02.png"]
+        imagens: ["/ceu-de-agosto/ceu-de-agosto-01.jpg", "/ceu-de-agosto/ceu-de-agosto-02.jpg", "/ceu-de-agosto/ceu-de-agosto-03.jpg"]
     },
     Data8: {
         year: 2022,
@@ -156,7 +156,7 @@ export const contentData: ContentData = {
                 `,
         awards: "",
         award: "",
-        imagens: ["/um-broto-legal/um-broto-legal-02.png", "/um-broto-legal/um-broto-legal-01.png", "/um-broto-legal/um-broto-legal-03.png", "/um-broto-legal/um-broto-legal-04.png"]
+        imagens: ["/um-broto-legal/um-broto-legal-01.png", "/um-broto-legal/um-broto-legal-02.png", "/um-broto-legal/um-broto-legal-03.png", "/um-broto-legal/um-broto-legal-04.png"]
     },
     Data9: {
         year: 2021,
@@ -172,6 +172,6 @@ export const contentData: ContentData = {
             fig: yuri kobayashi`,
         awards: "",
         award: "",
-        imagens: ["/meu-album-de-amores/meu-album-de-amores-01.png", "/meu-album-de-amores/meu-album-de-amores-02.png", "/meu-album-de-amores/meu-album-de-amores-03.png"]
+        imagens: ["/meu-album-de-amores/meu-album-de-amores-01.png", "/meu-album-de-amores/meu-album-de-amores-02.png", "/meu-album-de-amores/meu-album-de-amores-03.webp"]
     },
 };
