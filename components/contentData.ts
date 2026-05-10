@@ -74,7 +74,7 @@ export const contentData: ContentData = {
                 fig: yuri kobayashi`,
         awards: `Premio Melhor Fotografia e Melhor Trilha Sonora, Festival Internacional de Cinema de Carazinho em 2025`,
         award: "",
-        imagens: ["/passagrana/passagrana-01.jpg", "/passagrana/passagrana-02.png", "/passagrana/passagrana-03.png"]
+        imagens: ["/passagrana/passagrana-01.jpg", "/passagrana/passagrana-02.webp", "/passagrana/passagrana-03.png"]
     },
     Data4: {
         year: 2014,
