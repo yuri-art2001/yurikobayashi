@@ -18,6 +18,23 @@ export interface ContentData {
 
 export const contentData: ContentData = {
     Data1: {
+        year: 2026,
+        color: "",
+        titulo: "Um Pai em Apuros",
+        imagem: "/um-pai-em-apuros/um-pai-em-apuros-capa.png",
+        video: "",
+        videoIn: "/videos/um-pai-em-apuros.mp4",
+        texto: `ᴘʀᴏᴅ: ɢᴀʟᴇʀɪᴀ ᴅɪꜱᴛʀɪʙᴜɪᴅᴏʀᴀ + ɢʟᴀᴢ ᴇɴᴛʀᴇᴛᴇɴɪᴍᴇɴᴛᴏ + ꜱᴛᴀʀ+ 
+ᴅɪʀ: ᴄᴀʀᴏʟ ᴅᴜʀᴀᴏ 
+ᴅᴏᴘ: ᴘᴇᴅʀᴏ ꜰᴀᴇʀꜱᴛᴇɪɴ 
+ᴀʀᴛ: ʀᴀꜰᴀᴇʟ ᴛᴏʀᴀʜ`,
+        awards: ``,
+        imagens: ["/um-pai-em-apuros/um-pai-em-apuros-01.jpg",
+             "/um-pai-em-apuros/um-pai-em-apuros-02.png",
+              "/um-pai-em-apuros/um-pai-em-apuros-03.JPG","/um-pai-em-apuros/um-pai-em-apuros-04.png"]
+        // imagens: ["/broto-legal-ma.png", "/broto-legal-ve.png", "/broto-legal-pa.png"]
+    },
+    Data2: {
         year: 2025,
         color: "",
         titulo: "A Melhor Mãe do Mundo",
@@ -38,7 +55,7 @@ export const contentData: ContentData = {
               "/melhor-mae-do-mundo/melhor-mae-do-mundo-03.webp"]
         // imagens: ["/broto-legal-ma.png", "/broto-legal-ve.png", "/broto-legal-pa.png"]
     },
-    Data2: {
+    Data3: {
         year: 2024,
         color: "",
         titulo: "Amarela",
@@ -60,7 +77,7 @@ export const contentData: ContentData = {
         award: "/festival-de-cannes.png",
         imagens: ["/amarela/amarela-01.png", "/amarela/amarela-02.png", "/amarela/amarela-03.png",  "/amarela/amarela-04.png"]
     },
-    Data3: {
+    Data4: {
         year: 2024,
         color: "",
         titulo: "Passagrana",
@@ -76,7 +93,7 @@ export const contentData: ContentData = {
         award: "",
         imagens: ["/passagrana/passagrana-01.jpg", "/passagrana/passagrana-02.webp", "/passagrana/passagrana-03.png"]
     },
-    Data4: {
+    Data5: {
         year: 2014,
         color: "",
         titulo: "Amigos Sem Compromisso",
@@ -93,7 +110,7 @@ export const contentData: ContentData = {
         award: "",
         imagens: ["", "", ""]
     },
-    Data5: {
+    Data6: {
         year: 2024,
         color: "",
         titulo: "Doce Família",
@@ -109,7 +126,7 @@ export const contentData: ContentData = {
         award: "",
         imagens: ["/doce-familia/doce-familia-01.webp", "/doce-familia/doce-familia-02.png", "/doce-familia/doce-familia-03.png", "/doce-familia/doce-familia-04.png"]
     },
-    Data6: {
+    Data7: {
         year: 2022,
         color: "",
         titulo: "O Caso Celso Daniel",
@@ -125,7 +142,7 @@ export const contentData: ContentData = {
         award: "",
         imagens: ["/caso-celso-daniel/caso-celso-daniel-01.png", "/caso-celso-daniel/caso-celso-daniel-02.png", "/caso-celso-daniel/caso-celso-daniel-03.png", "/caso-celso-daniel/caso-celso-daniel-04.png", "/caso-celso-daniel/caso-celso-daniel-05.png"]
     },
-    Data7: {
+    Data8: {
         year: 2021,
         color: "",
         titulo: "Céu de Agosto",
@@ -141,7 +158,7 @@ export const contentData: ContentData = {
         award: "/festival-de-cannes.png",
         imagens: ["/ceu-de-agosto/ceu-de-agosto-01.jpg", "/ceu-de-agosto/ceu-de-agosto-02.jpg", "/ceu-de-agosto/ceu-de-agosto-03.jpg"]
     },
-    Data8: {
+    Data9: {
         year: 2022,
         color: "",
         titulo: "Um Broto Legal",
@@ -158,7 +175,7 @@ export const contentData: ContentData = {
         award: "",
         imagens: ["/um-broto-legal/um-broto-legal-01.png", "/um-broto-legal/um-broto-legal-02.png", "/um-broto-legal/um-broto-legal-03.png", "/um-broto-legal/um-broto-legal-04.png"]
     },
-    Data9: {
+    Data10: {
         year: 2021,
         color: "",
         titulo: "Meu Álbum de Amores",
