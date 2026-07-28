@@ -24,10 +24,11 @@ export const contentData: ContentData = {
         imagem: "/um-pai-em-apuros/um-pai-em-apuros-capa.png",
         video: "",
         videoIn: "/videos/um-pai-em-apuros.mp4",
-        texto: `ᴘʀᴏᴅ: ɢᴀʟᴇʀɪᴀ ᴅɪꜱᴛʀɪʙᴜɪᴅᴏʀᴀ + ɢʟᴀᴢ ᴇɴᴛʀᴇᴛᴇɴɪᴍᴇɴᴛᴏ + ꜱᴛᴀʀ+ 
-ᴅɪʀ: ᴄᴀʀᴏʟ ᴅᴜʀᴀᴏ 
-ᴅᴏᴘ: ᴘᴇᴅʀᴏ ꜰᴀᴇʀꜱᴛᴇɪɴ 
-ᴀʀᴛ: ʀᴀꜰᴀᴇʟ ᴛᴏʀᴀʜ`,
+        texto: `prod: galeria distribuidora + glaz entretenimento + star+
+dir: carol durao
+dop: pedro faerstein
+art: rafael tora
+`,
         awards: ``,
         imagens: ["/um-pai-em-apuros/um-pai-em-apuros-01.jpg",
              "/um-pai-em-apuros/um-pai-em-apuros-02.png",
